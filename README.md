@@ -117,8 +117,10 @@ Each graph is represented as a list of vertices (`nodes`) and weighted edges:
       ]
     }
   ]
+```
 
 📊 Output Example (results/output.json)
+```json
 {
   "results": [
     {
@@ -136,3 +138,5 @@ Each graph is represented as a list of vertices (`nodes`) and weighted edges:
   ]
 }
 }
+```
+
