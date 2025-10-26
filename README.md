@@ -117,4 +117,22 @@ Each graph is represented as a list of vertices (`nodes`) and weighted edges:
       ]
     }
   ]
+
+📊 Output Example (results/output.json)
+{
+  "results": [
+    {
+      "graph_id": 1,
+      "input_stats": {"vertices": 5, "edges": 7},
+      "prim": {"total_cost": 16, "execution_time_ms": 0.414, "operations_count": 13},
+      "kruskal": {"total_cost": 16, "execution_time_ms": 0.217, "operations_count": 23}
+    },
+    {
+      "graph_id": 2,
+      "input_stats": {"vertices": 4, "edges": 5},
+      "prim": {"total_cost": 6, "execution_time_ms": 0.018, "operations_count": 8},
+      "kruskal": {"total_cost": 6, "execution_time_ms": 0.016, "operations_count": 14}
+    }
+  ]
+}
 }
