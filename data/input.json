@@ -15,13 +15,57 @@
     },
     {
       "id": 2,
-      "nodes": ["A", "B", "C", "D"],
+      "nodes": ["A","B","C","D","E","F","G","H","I","J"],
       "edges": [
-        {"from": "A", "to": "B", "weight": 1},
-        {"from": "A", "to": "C", "weight": 4},
-        {"from": "B", "to": "C", "weight": 2},
-        {"from": "C", "to": "D", "weight": 3},
-        {"from": "B", "to": "D", "weight": 5}
+        {"from":"A","to":"B","weight":4},
+        {"from":"A","to":"C","weight":2},
+        {"from":"B","to":"C","weight":5},
+        {"from":"B","to":"D","weight":10},
+        {"from":"C","to":"E","weight":3},
+        {"from":"D","to":"E","weight":7},
+        {"from":"E","to":"F","weight":6},
+        {"from":"F","to":"G","weight":1},
+        {"from":"G","to":"H","weight":8},
+        {"from":"H","to":"I","weight":9},
+        {"from":"I","to":"J","weight":2},
+        {"from":"J","to":"A","weight":5},
+        {"from":"C","to":"H","weight":4},
+        {"from":"D","to":"I","weight":6}
+      ]
+    },
+    {
+      "id": 3,
+      "nodes": ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T"],
+      "edges": [
+        {"from":"A","to":"B","weight":5},
+        {"from":"A","to":"C","weight":3},
+        {"from":"B","to":"D","weight":4},
+        {"from":"C","to":"D","weight":2},
+        {"from":"D","to":"E","weight":7},
+        {"from":"E","to":"F","weight":1},
+        {"from":"F","to":"G","weight":9},
+        {"from":"G","to":"H","weight":6},
+        {"from":"H","to":"I","weight":5},
+        {"from":"I","to":"J","weight":4},
+        {"from":"J","to":"K","weight":3},
+        {"from":"K","to":"L","weight":2},
+        {"from":"L","to":"M","weight":5},
+        {"from":"M","to":"N","weight":8},
+        {"from":"N","to":"O","weight":4},
+        {"from":"O","to":"P","weight":7},
+        {"from":"P","to":"Q","weight":3},
+        {"from":"Q","to":"R","weight":6},
+        {"from":"R","to":"S","weight":9},
+        {"from":"S","to":"T","weight":5},
+        {"from":"A","to":"J","weight":8},
+        {"from":"C","to":"K","weight":7},
+        {"from":"E","to":"L","weight":4},
+        {"from":"G","to":"M","weight":6},
+        {"from":"I","to":"N","weight":3},
+        {"from":"K","to":"O","weight":2},
+        {"from":"M","to":"P","weight":5},
+        {"from":"O","to":"R","weight":4},
+        {"from":"Q","to":"T","weight":3}
       ]
     }
   ]
