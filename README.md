@@ -118,6 +118,16 @@ Each graph is represented as a list of vertices (`nodes`) and weighted edges:
     }
   ]
 ```
+### 📁 Datasets Included
+All datasets are contained within a single `data/input.json` file, featuring graphs of different sizes:
+
+| Graph ID | Type | Vertices | Description |
+|-----------|------|-----------|--------------|
+| 1 | Small | 5 | Basic graph for correctness verification |
+| 2 | Medium | 10 | Moderately sized network for performance analysis |
+| 3 | Large | 20 | Large network for scalability and efficiency testing |
+
+Each dataset is automatically processed, and corresponding MST results are recorded in `results/output.json` and `results/summary.csv`.
 
 📊 Output Example (results/output.json)
 ```json
